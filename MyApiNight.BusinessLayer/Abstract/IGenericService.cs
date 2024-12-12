@@ -12,6 +12,6 @@ namespace MyApiNight.BusinessLayer.Abstract
         void TUpdate(T entity);
         void TDelete(int id);
         T TGetById(int id);
-        List<T> GetAll();
+        List<T> TGetAll();
     }
 }

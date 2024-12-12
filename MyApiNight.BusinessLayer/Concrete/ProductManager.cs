@@ -18,7 +18,7 @@ namespace MyApiNight.BusinessLayer.Concrete
             _productDal = productDal;
         }
 
-        public List<Product> GetAll()
+        public List<Product> TGetAll()
         {
             return _productDal.GetAll();
         }
@@ -41,6 +41,11 @@ namespace MyApiNight.BusinessLayer.Concrete
         public void TUpdate(Product entity)
         {
             _productDal.Update(entity);
+        }
+
+        public int TGetProductCount()
+        {
+            return _productDal.GetProductCount();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace MyApiNight.BusinessLayer.Concrete
             _categoryDal = categoryDal;
         }
 
-        public List<Category> GetAll()
+        public List<Category> TGetAll()
         {
             return _categoryDal.GetAll();
         }

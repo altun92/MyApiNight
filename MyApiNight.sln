@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiNight.BusinessLayer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiNight.WebApi", "MyApiNight.WebApi\MyApiNight.WebApi.csproj", "{6EF320BD-BA02-44A7-8355-11F9F97C0065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiNight.WebUI", "MyApiNight.WebUI\MyApiNight.WebUI.csproj", "{E742E016-63E7-4E03-A797-FAE5B014DB58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6EF320BD-BA02-44A7-8355-11F9F97C0065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF320BD-BA02-44A7-8355-11F9F97C0065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF320BD-BA02-44A7-8355-11F9F97C0065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E742E016-63E7-4E03-A797-FAE5B014DB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E742E016-63E7-4E03-A797-FAE5B014DB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E742E016-63E7-4E03-A797-FAE5B014DB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E742E016-63E7-4E03-A797-FAE5B014DB58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
